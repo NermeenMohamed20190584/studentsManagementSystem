@@ -1,0 +1,52 @@
+/* Set general styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style the table header row */
+thead th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the table data rows */
+tbody td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Apply alternating row colors */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Add some space around the table */
+table {
+    margin: 20px 0;
+}
+
+/* Style the h1 heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Adjust the width of the first two columns */
+th:first-child, td:first-child {
+    width: 25%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 20%;
+}
+
+/* Style the header of the last column */
+th:last-child, td:last-child {
+    width: 10%;
+    font-weight: bold;
+}
